@@ -1,0 +1,35 @@
+/* Ryan Mills, 9/30/24 */
+
+body {background-color: #FFFFFF;
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {font-family: Georgia, 'Times New Roman', serif;
+	color: #FFFFFF;
+	margin-bottom: 0;}
+header {background: url(logo.png) right;
+		background-repeat: no-repeat;
+		text-indent: 1em;
+		line-height: 400%;
+		background-color: #29485d;}
+
+nav {background-color: #C6D02F;
+	font-weight: bold}
+nav a {text-decoration: none}
+
+h2 {font-family: Georgia, 'Times New Roman', serif;
+	color: #407386;}
+h3 {font-family: Georgia, 'Times New Roman', serif;
+	color: #29485d}
+dt {color: #0194B5;}
+ul {list-style-image: url(marker.gif);}
+li {line-height: 1.5}
+footer {font-size: 75%;
+		font-style: italic;
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', serif;}
+web {font-weight: bold}
+contact id {font-size: 90%}
+
+
+.web {color: #0194B5;}
