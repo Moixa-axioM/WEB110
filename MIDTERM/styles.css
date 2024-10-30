@@ -1,0 +1,103 @@
+/* Ryan MIlls midterm styles sheet*/ 
+
+/*background image for all of the pages*/
+body {background-color: white;
+				  background-image: url("Parchment.jpg");
+				  background-size: cover;
+				  background-repeat: no-repeat;
+				  }
+				  
+/*the red background for the box on the page.*/			
+#wrapper {
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			min-width: 300px;
+			max-width: 1500px;
+			box-shadow: 2px 2px 2px black;
+			padding: 10px;
+			background-color: #C75B5D;
+			opacity: 0.9;
+			}
+
+/*headlines with typewriter looking fonts*/			
+h2 {text-align: center;
+	font-size: 35px; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Courier New", Arial, sans-serif}
+	
+/*top of the page header with the simple gold box with rounded edges*/			
+h1 {background-color: #6666ff;
+			border: 5px ridge black;
+			text-align: center;
+			padding: 5px;
+			margin: 0 0 0 0;
+			border-radius: 0px;
+			border-top-right-radius: 50px;
+			border-bottom-left-radius: 50px;
+			text-shadow: 2px 2px 1px #FFF;
+			font-size: 40px;
+			background-color: #C7A852;
+			font-family: "Trebuchet MS", Arial, sans-serif;
+			}
+/*just so my text doesnt overflow... not sure if it even would.*/
+.container {overflow: hidden;}
+
+/*makes the image stay on the left side of the page and adds a border*/
+.image {float: left;
+		margin-right: 15px;
+		max-width: 400px;
+		border: solid}
+		
+.center {text-align: center;
+		font-size:25px}
+		
+		
+/*font and size for all general paragraphs on the page*/			
+p {			font-size: 30px;
+			font-family: Georgia, Arial, sans-serif;
+				padding: 10px;
+				margin: 10px 0;
+			  }
+			  
+/*font and size for ordered list*/			  
+ol {font-family: Verdana, Arial, sans-serif;
+	font-size: 25px;
+	text-align: left}
+
+/*actual font and size for p in ordered list*/
+ol p {font-size: 20px;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		margin-top: 0px;}
+
+/*centering the unordered lists and change size/ get rid of bullets*/
+ul {text-align: center;
+	list-style-type: none;
+	font-size: 20px;}
+			  
+/*the following is to change the nav bar*/
+nav ul { list-style-type: none; }
+			
+nav li {display: inline;
+					font-family: Helvetica, Arial, sans-serif;
+					font-size: 30px;
+					background-color: #E8DAB5;
+					border-radius: 5px;
+					border: solid 2px;}
+			
+nav li:hover {background-color: white;}
+			
+nav a {text-decoration: none;
+				   padding: 10px;}
+				   
+nav a:link {color: #980002;}
+			
+nav a:visited {color: purple;}
+			
+nav a:hover {color: red;}
+			
+nav a:active {color: purple;}
+
+footer {text-align: center;
+		margin-top: 5px;
